@@ -20,7 +20,9 @@ export default function LoginButton({ email, password }) {
             })
         })
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then(user => {
+            user.error ? console.log("error") : login(user)
+        })
         .catch(err => console.error(err))
     }
 
