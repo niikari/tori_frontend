@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-RUN chmod a+x public/env.js
+# RUN chmod a+x public/env.js
 
 EXPOSE 3000
 
