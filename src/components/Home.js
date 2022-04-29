@@ -22,7 +22,6 @@ export default function Home() {
                     <li>Käyttäjien lisääminen, rekisteröiminen sekä hallinnointi ulkoisesti (tähän valitsin Googlen Firebasen)</li>
                     <li>Palvelimen piti pystyä antamaan tietoja tietokannasta vain kirjautuneille käyttäjille</li>
                     <li>Nopea koodin kehittäminen, julkaisu sekä palvelun jatkuva saatavuus (CI/CD pipeline)</li>
-                    <li>MySQL tietokanta liitettynä palvelimelle (OpenShiftin tarjoama tietokanta)</li>
                 </ul>
                     
             </div>
